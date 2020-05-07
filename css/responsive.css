@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+  /* line 4, ../sass/responsive.scss */
+  body header, body .header-small {
+    height: 50px !important;
+  }
+  /* line 7, ../sass/responsive.scss */
+  body header .top-header, body .header-small .top-header {
+    justify-content: center;
+  }
+  /* line 10, ../sass/responsive.scss */
+  body header .top-header .language-container, body .header-small .top-header .language-container {
+    display: none;
+  }
+  /* line 14, ../sass/responsive.scss */
+  body header .top-header .location, body .header-small .top-header .location {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+  }
+  /* line 22, ../sass/responsive.scss */
+  body header .top-header .logo a, body .header-small .top-header .logo a {
+    width: 100px;
+    height: 40px;
+    background: url(../assets/logo.png) center 5px no-repeat;
+    background-size: 100%;
+  }
+  /* line 33, ../sass/responsive.scss */
+  body .language-container {
+    position: relative;
+  }
+  /* line 36, ../sass/responsive.scss */
+  body .language-container .choose-language {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  /* line 42, ../sass/responsive.scss */
+  body .social-container {
+    display: none !important;
+  }
+  /* line 46, ../sass/responsive.scss */
+  body .social-links {
+    right: 50% !important;
+    top: 30px !important;
+  }
+  /* line 51, ../sass/responsive.scss */
+  body .search-container {
+    width: 100%;
+    top: 25px !important;
+  }
+  /* line 55, ../sass/responsive.scss */
+  body .search-container .search-container-inner {
+    justify-content: center;
+  }
+  /* line 58, ../sass/responsive.scss */
+  body .search-container .search-container-inner button {
+    display: none;
+  }
+  /* line 64, ../sass/responsive.scss */
+  body .mobile-menu .social-container {
+    position: fixed !important;
+    z-index: 9999;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    background-color: #FFFF;
+    left: 0;
+    top: 50px;
+  }
+  /* line 73, ../sass/responsive.scss */
+  body .mobile-menu .social-container .share-social-container {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  /* line 81, ../sass/responsive.scss */
+  body section {
+    margin-top: 0px;
+  }
+  /* line 84, ../sass/responsive.scss */
+  body section .navigation {
+    margin-top: 0px;
+    padding-top: 90px !important;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* line 97, ../sass/responsive.scss */
+  body section .navigation ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  /* line 102, ../sass/responsive.scss */
+  body section .navigation ul li a {
+    padding: 13px 0px;
+  }
+  /* line 104, ../sass/responsive.scss */
+  body section .navigation ul li a::before {
+    display: none;
+  }
+  /* line 109, ../sass/responsive.scss */
+  body section .navigation ul li:first-child a {
+    padding-top: 26px;
+  }
+  /* line 117, ../sass/responsive.scss */
+  body .small-menu .navigation {
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+    visibility: visible;
+    opacity: 1;
+  }
+  /* line 123, ../sass/responsive.scss */
+  body #menubar {
+    display: block !important;
+  }
+  /* line 127, ../sass/responsive.scss */
+  body .carousel-wrapper {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  /* line 131, ../sass/responsive.scss */
+  body .carousel-wrapper .bottle-wrapper {
+    display: none;
+  }
+  /* line 136, ../sass/responsive.scss */
+  body .carousel-wrapper .owl-carousel-col:first-child {
+    width: 100%;
+  }
+  /* line 139, ../sass/responsive.scss */
+  body .carousel-wrapper .owl-carousel-col:first-child .owl-carousel {
+    padding-bottom: 20px;
+  }
+  /* line 145, ../sass/responsive.scss */
+  body .carousel-wrapper .owl-carousel-col:nth-child(2) {
+    height: 30px !important;
+  }
+  /* line 151, ../sass/responsive.scss */
+  body .carousel-wrapper .owl-carousel-3 .owl-stage-outer {
+    display: none;
+  }
+}
